@@ -8,8 +8,8 @@ type Mutation {
 }
 
 type Message {
-    _id: ID!,
-    title: String!,
-    content: String!,
-    author: String!,
+    _id: ID!
+    title: String!
+    content: String!
+    author: String!
 }

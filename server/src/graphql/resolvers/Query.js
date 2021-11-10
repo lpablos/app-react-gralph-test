@@ -4,11 +4,11 @@ const Query = {
     ping () {
         return "pong!"
     },
-
-    // Funcion asincrona para obtener los resultados
-    messages: async () => {
+    message: async() => {
         return await Message.find()
     }
+    
+   
 }
 
 export default Query
